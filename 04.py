@@ -4,7 +4,7 @@ saldo = int(input("Ingrese su saldo en Pesos: $"))
 
 retiro = int(input("Ingrese monto a retirar: $"))
 
-if saldo > retiro:
+if saldo >= retiro:
     print("Saldo restante:", (saldo - retiro))
 
 else:
